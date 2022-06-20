@@ -1,0 +1,55 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-size: 100%;
+    background-image: url("https://velvetescape.com/wp-content/uploads/2015/05/IMG_6420-1280x920.jpeg");
+    background-size: cover;
+}
+.Intro {
+    background-image: url("https://triptourguide.com/wp-content/uploads/2019/11/table-mountain-south-africa.jpg");
+    height: 40ex;
+    border-radius: 5ex;
+    width: 75%;
+    margin: 0% 15% 0% 15%;
+}
+
+.myphoto {
+    width: 400px;
+    height: 800px;
+    border-radius: 50%;
+    padding: 0% 35% 0%;
+    margin-bottom: 1em;
+    
+}
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+@media (min-width: 760px) {
+    .Intro {
+        display: flex;
+    }
+    .City {
+        display: flex;      
+    }
+    .foreign {
+        display: flex;
+        flex: 1;
+        margin: 1em;
+    }
+    .Historical {
+        display: flex;
+        flex: 1;     
+    }
+}
+h1{
+    text-align: start;
+    text-align: center; 
+}
+
